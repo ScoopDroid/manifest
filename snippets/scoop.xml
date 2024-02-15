@@ -14,6 +14,10 @@
   <remote  name="derp-devices"
            fetch="https://github.com/DerpFest-Devices"
            revision="14" />
+  
+  <remote  name="scoop"
+           fetch="https://github.com/ScoopDroid"
+           revision="14.0" />
 
   <remote  name="alex"
            fetch="ssh://git@github.com/NurKeinNeid"
@@ -24,7 +28,7 @@
   <project path="art" name="art" groups="pdk" remote="derp" />
   <project path="bionic" name="bionic" groups="pdk" remote="derp" />
   <project path="development" name="development" groups="developers,pdk-cw-fs,pdk-fs" remote="derp" />
-  <project path="manifest" name="manifest" remote="derp" />
+  <project path="manifest" name="manifest" remote="scoop" />
 
   <!-- Bootable -->
   <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="derp" />
