@@ -34,7 +34,7 @@
   <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="derp" />
 
   <!-- Build -->
-  <project path="build/make" name="build" groups="pdk" remote="derp" >
+  <project path="build/make" name="build" groups="pdk" remote="scoop" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
