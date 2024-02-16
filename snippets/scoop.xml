@@ -208,7 +208,7 @@
 
   <!-- Vendor -->
   <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" groups="qcom,qssi" remote="derp" />
-  <project path="vendor/derp" name="vendor_derp" remote="derp">
+  <project path="vendor/scoop" name="vendor_scoop" remote="scoop">
     <linkfile src="build/stop_scan.mk" dest="kernel/Android.mk" />
   </project>
   <project path="vendor/fontage" name="vendor_fontage" remote="derp" />
