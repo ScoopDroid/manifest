@@ -77,7 +77,7 @@
   <project path="external/zstd" name="external_zstd" remote="derp" />
 
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="derp" />
-  <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="derp" />
+  <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="scoop" />
   <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" groups="pdk-cw-fs,pdk-fs" remote="derp" />
   <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="derp" />
   <project path="frameworks/opt/colorpicker" name="frameworks_opt_colorpicker" groups="pdk-cw-fs,pdk-fs" remote="derp" />
